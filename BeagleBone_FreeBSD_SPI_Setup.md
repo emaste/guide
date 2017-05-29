@@ -88,12 +88,6 @@ $ cu -s 115200 -l /dev/cuaU0 # Or appropriate tty device
 
 You won't see any output yet.
 
-*Using `sudo` to use `cu` is not a good practice, instead you should add the user to the `dialer` group as above stated, or grant everyone's access as an alternative by running:*
-
-```bash
-$ chmod 4511 /usr/bin/cu
-```
-
 For more info about serial communications, see [FreeBSD Serial Communications](https://www.freebsd.org/doc/faq/serial.html).
 
 ### 2. Boot up and log in
